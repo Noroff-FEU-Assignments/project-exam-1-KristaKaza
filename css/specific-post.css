@@ -1,0 +1,161 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  padding-top: 10px;
+}
+
+#postContent {
+  padding-top: 204px;
+}
+
+#postContent h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.post-date {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.flex-container p {
+  width: 44em;
+  font-size: 17px;
+  text-align: center;
+  padding: 0 15px !important;
+}
+
+.flex-container img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  height: auto;
+  width: 748px;
+}
+
+.flex-container figure {
+  display: contents;
+}
+
+.flex-container details {
+  width: 47em;
+
+  text-align: left;
+}
+
+.flex-container li {
+  text-align: left;
+  padding: 10px;
+}
+
+.wp-block-verse {
+  font-family: inherit;
+  word-wrap: break-word;
+  width: 22em;
+  white-space: normal;
+}
+
+.has-text-align-center p {
+  width: auto;
+}
+
+.wp-block-media-text,
+.is-stacked-on-mobile,
+.food-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 57px;
+  align-items: center;
+}
+
+.food-text img,
+.is-image-fill img,
+.wp-block-group-is-layout-constrained img {
+  width: 35%;
+  aspect-ratio: 5/3;
+}
+
+#closing-box,
+#subscribe-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 14px;
+  padding: 10px 0 25px;
+  background: #ebebeb;
+  border-radius: 23px;
+  margin-top: 40px;
+}
+
+#subscribe-box pre,
+.subscribe-box {
+  text-align: center;
+}
+
+#closing-box button,
+.wp-block-button {
+  padding: 10px 30px;
+  border-radius: 7px;
+  color: white;
+  text-align: center;
+}
+
+.wp-block-button__link {
+  background-color: #598a95 !important;
+  padding: 10px 30px;
+  border-radius: 7px;
+}
+
+.more-posts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+  text-decoration: none;
+  color: #0e93bb;
+  font-size: 19px;
+}
+
+@media screen and (max-width: 780px) {
+  #postContent {
+    padding-top: 151px;
+  }
+
+  #postContent img {
+    aspect-ratio: 1/1 !important;
+    object-fit: cover;
+    width: 100% !important;
+    height: 100%;
+  }
+
+  .flex-container p {
+    width: auto;
+  }
+
+  .flex-container details {
+    width: auto;
+  }
+
+  .wp-block-media-text img,
+  .is-stacked-on-mobile img,
+  .food-text img {
+    width: 67%;
+  }
+
+  .wp-block-verse {
+    width: auto;
+    padding: 0px 14px;
+    text-align: center;
+  }
+}
+
+.latest-posts-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}

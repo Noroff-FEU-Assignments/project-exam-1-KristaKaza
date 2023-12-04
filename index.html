@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to Travel & Explore. Here you will find information and tips about different destinations around the world!">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/carousel.js" defer></script>
+    <!-- Hotjar Tracking Code for Travel-Blog -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 3767651, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+    </style>
+    <title>T&E Homepage</title>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="logo"><a href="/index.html">Travel & Explore</a></h1>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <iconify-icon class="nav-icon" icon="fontisto:nav-icon-a" style="color: #ca7b52;">Navigation
+            </iconify-icon>
+        </label>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle visually-hidden">
+        <nav>
+            <ul>
+                <li><a href='/index.html'>Home</a></li>
+                <li><a href='/html/blog.html'>Blog</a></li>
+                <li><a href='/html/about.html'>About</a></li>
+                <li><a href='/html/contact.html'>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-img about-img-text">
+            <img src="/images/christopher-ruel-cvw75oY6Mjc-unsplash.jpg" alt="bridge on a sandy beach">
+        </div>
+        <div class="introduction-container">
+            <h2>Why Travel?</h2>
+            <p>Traveling is a journey of self-discovery, a quest to explore the beauty and diversity of our world.
+                This
+                travel blog
+                serves as a passport to wanderlust, guiding you to breathtaking destinations waiting to be
+                uncovered.
+                From hidden gems
+                to iconic landmarks, we'll navigate the globe together, offering tips, insights, and inspiration for
+                your next
+                adventure. Let this website be your compass in the world of travel, helping you find that perfect
+                destination and making
+                your dreams of exploration come true.</p>
+        </div>
+        <div class="latest-posts-carousel">
+            <h2>Latest Posts:</h2>
+            <div class="spinner-container">
+                <div class="spinner"></div>
+            </div>
+            <div class="container">
+                <div class="slider-wrapper">
+                    <button id="prev-slide" class="slide-button material-symbols-rounded">
+                        ←
+                    </button>
+                    <div id="carousel-container" class="carousel-container"></div>
+                    <button id="next-slide" class="slide-button material-symbols-rounded">
+                        →
+                    </button>
+                </div>
+                <div class="slider-scrollbar">
+                    <div class="scrollbar-track">
+                        <div class="scrollbar-thumb"></div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Let us find your next destination!</h3>
+        </div>
+        <div id="errorDisplay"></div>
+
+    </main>
+    <footer>
+        <div class="footer-travel">
+            <p>Copyright © 2023 | All Rights Reserved</p>
+            <img src="/images/Screenshot-2023-11-07.png" alt="Travel and explore logo">
+            <p>Disclosure & Privacy Policy</p>
+            <div>
+                <iconify-icon icon="logos:facebook"></iconify-icon>
+                <iconify-icon icon="skill-icons:instagram"></iconify-icon>
+                <iconify-icon icon="skill-icons:linkedin"></iconify-icon>
+                <iconify-icon icon="logos:pinterest"></iconify-icon>
+            </div>
+        </div>
+    </footer>
+</body>
