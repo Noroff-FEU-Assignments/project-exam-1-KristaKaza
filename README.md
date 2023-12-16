@@ -24,12 +24,18 @@ The website consists of 5 webpages:
 ## Getting Started
 
 ### Installing
-1. Clone the repo:
+Instructions
 
-2. Install the dependencies:
+- Fork repository
+- Clone the forked repository
+- Add to project
+- Commit and push
+- Create pull request
+- Wait for pull request
+
 
 ### Running
-To run the app, run the following commands:
+https://incomparable-melba-3f8fbb.netlify.app/
 
 ## Contact
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-krista--kaza-blue?logo=linkedin&logoColor=blue&labelColor=black)](https://www.linkedin.com/in/krista-kaza-870326235/)
